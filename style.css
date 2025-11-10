@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  /* abb border box ki height or weight ke andar rahega normally pehle height lag jati hai then border apne dimentions extra laga deta hai */
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* navbar mein saare element cross Y axis ke centre mein */
+  align-items: center;
+}
+
+/* box 1 */
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  /* correct way to give path when in same folder */
+  background-image: url("Images/amazon_logo.png");
+  background-size: cover;
+
+  height: 50px;
+  width: 100%;
+}
+
+
+.border {
+  /* isse hover karne pe navbar ke saare elements shift ni honge border ke aane se then hum color de denge */
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+/* box 2 */
+
+.nav-address {
+  /* for same border dimentions as box 1 */
+  padding: 8px;
+}
+
+.add-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-first{
+  color: #CCCCCC;
+  /* rem (parent element) ke respect mein style karte hain jisse website responsive baane resize karne pe wo element bhi resize ho */
+  font-size: 0.8rem;
+  margin-left: 24px;
+}
+
+.add-sec{
+  color: white;
+  font-size: 1rem;
+  margin-left: 3px; 
+}
