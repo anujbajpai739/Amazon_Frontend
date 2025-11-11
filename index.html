@@ -13,13 +13,20 @@
 </head>
 <body>
 
+<header>
+  
   <div class="navbar">
+
+    <!-- box 1 -->
 
     <div class="nav-logo border">
 
         <div class="logo"></div>
 
     </div>
+
+
+    <!-- box 2 -->
 
     <!-- sharing same border class to add that border on hover -->
     <div class="nav-address border">
@@ -31,9 +38,80 @@
       </div>
 
     </div>
+    
+
+    <!-- box 3 -->
+
+    <div class="nav-search">
+        <select class="search-select" name="product-category">
+          <option value="">All</option>
+          <!-- <option value="electronics">Electronics</option>
+          <option value="books">Books</option>
+          <option value="home-kitchen">Home & Kitchen</option>
+          <option value="clothing">Clothing</option> -->
+        </select>
+
+        <input type="text" placeholder="Search Amazon.in" class="search-input">
+
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+
+    <!-- box 4 -->
+
+    <div class="nav-flag border">
+      <div class="flag"></div>
+      <span class="nav-flag-text">EN</span>
+      <span class="arrow">&#9662;</span> <!-- ▼ -->
+    </div>
+
+    <!-- box 5 -->
+
+    <div class="nav-signin border">
+      <p><span> Hello, sign in </span></p>
+      <p class="nav-second">Account & Lists</p>
+    </div>
+
+    <!-- box 6 -->
+
+    <div class="nav-return border">
+      <p><span> Returns </span></p>
+      <p class="nav-second"> & Orders </p>
+    </div>
+
+
+    <!-- box 7 -->
+
+    <div class="nav-cart border">
+      <i class="fa-solid fa-cart-shopping"></i>
+      Cart
+    </div>
 
   </div>
 
+
+  <div class="panel">
+    <div class="panel-all border">
+      <i class="fa-solid fa-bars"></i>
+      All
+    </div>
+
+   <div class="panel-ops">
+    <p class="panel-ops-text border">Today's Deals</p>
+    <p class="panel-ops-text border">Customer Service</p>
+    <p class="panel-ops-text border">Registry</p>
+    <p class="panel-ops-text border">Gift Cards</p>
+    <p class="panel-ops-text border">Sell</p>
+   </div>
+
+   <div class="panel-deals border">
+    Shop deals in Electronics
+   </div>
+
+  </div>
+
+</header>  
   
 </body>
 </html>
