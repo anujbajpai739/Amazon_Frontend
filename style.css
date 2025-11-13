@@ -7,7 +7,7 @@
 
 body {
   background-color: #E3E6E6;
-  height: 5000px;
+  height: 3000px;
 }
 
 .navbar {
@@ -288,9 +288,14 @@ span {
 
 /* Shop Section */
 
+h2:hover {
+  font-size: 25px;
+}
+
 .shop-section {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
 .container {
@@ -317,4 +322,36 @@ span {
 .box-content {
   margin-left: 20px;
   margin-right: 10px;
+}
+
+
+.section-three {
+  width: 97%;
+  height: 285px;
+  background-color: white;
+  position: relative;
+  left: 25px;
+}
+
+.heading1 {
+  position: relative;
+  top: 15px;
+  left: 4px;
+}
+
+.bookbox {
+  display: flex;
+  direction: row;
+  width: 97%;
+  height: 220px;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  justify-content: space-evenly;
+}
+
+.books {
+  width: 133px;
+  height: 200px;
+  background-size: cover;
 }
